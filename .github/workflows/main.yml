@@ -1,0 +1,29 @@
+name: Python application test with Github Actions
+
+# when the action will run. Triggers the workflow on push or pull request
+on: [push]   
+  
+# a workflow run is made up of jobs that can run sequentially or in parallel
+jobs:
+  build:
+    # type of runner
+    runs-on: ubuntu-latest
+    
+    # a sequence of tasks will be executed as part of the job
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+    - name: Lint with Pylint
+      run: |
+        make lint
+    - name: Test with Pytest
+      run: |
+        make test
+    - name: Format code with Python black
+      run: |
+        make format
