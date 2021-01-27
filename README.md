@@ -12,7 +12,7 @@ The project can be created and deployed to cloud following these steps:
 4. Create scaffolding for the project, including Makefile, requirements.txt, source code and test code  
 5. Run make all, which will install, lint, and test code  
 6. **Setup Github Actions in main.yml**
-7. Commit changes and push to Github, run project in Azure Shell
+7. Commit changes and push to Github, run project in Cloud Shell
 8. Verify Github Actions Test Software, add status badge
 
 
