@@ -2,7 +2,7 @@
 ![Azure Python 3.8](https://github.com/yueyang0115/CI-CD-Scaffold-for-Python/workflows/Azure%20Python%203.8/badge.svg)
 
 # CI-CD-Scaffold-for-Python
-This is a project scaffold for python using Github Actions  
+This is a python project scaffold for deploying CI/CD using Github Actions  
 
 The project can be created and deployed to cloud following these steps:  
 1. Create a Github Repo, open Cloud Shell  
